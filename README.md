@@ -688,7 +688,7 @@ MathWorks products needed to run the simulation are listed below:
 
 ## Contact
 
-Please write to Florin Nae fnae@mathworks.com with any questions or suggestions.
+Please write to [Florin Nae](mailto:fnae@mathworks.com) with any questions or suggestions.
 
 ## License
 
