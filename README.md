@@ -51,7 +51,7 @@ Contents:
 7. Create a Model of the Open-Loop System <sup>(1)</sup>
 8. [Create a Model of the Closed-Loop System](#create-a-model-of-the-closed-loop-system)
 
-<sup>(1)</sup>  We do not discuss these test models here, please directly check the project folder and open the Simulink<sup>®</sup> models. Or open and check the contents of the MATLAB<sup>®</sup> Live Script [**designHVACsystem**](https://html-preview.github.io/?./RefrigerationSystemSizing/designHVACsystem.html).
+<sup>(1)</sup>  We do not discuss these test models here, please directly check the project folder and open the Simulink<sup>®</sup> models. Or open and check the contents of the MATLAB<sup>®</sup> Live Script [**designHVACsystem**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/RefrigerationSystemSizing/designHVACsystem.html).
 
 ### Problem to Solve
 
@@ -59,7 +59,7 @@ Problem to solve:
 
 * Assume we want to cool a vehicle cabin and its volume is 4 m<sup>3</sup>.
 * Suppose the external temperature is 30 °C and the volume desired temperature is 22 °C, and we want to cool down the cabin temperature in 1 min.
-* For simplicity, we assume that the air is dry, there are no losses in the system, and the cabin does not exchange heat with the surroundings. For a more detailed analysis, that considers air moisture and latent heat, one can refer to the MATLAB<sup>®</sup> Live Script [**Rough_design_of_a_thermal_system**](https://html-preview.github.io/?./Rough_design_of_a_thermal_system.html) which is an example of leveraging ChatGPT to quickly get a ballpark figure for the thermal system cooling power.
+* For simplicity, we assume that the air is dry, there are no losses in the system, and the cabin does not exchange heat with the surroundings. For a more detailed analysis, that considers air moisture and latent heat, one can refer to the MATLAB<sup>®</sup> Live Script [**Rough_design_of_a_thermal_system**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main//Rough_design_of_a_thermal_system.html) which is an example of leveraging ChatGPT to quickly get a ballpark figure for the thermal system cooling power.
 
 ```matlab
 % Environment
