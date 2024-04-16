@@ -4,15 +4,13 @@
 
 *Target audience: Automotive engineers that are involved in system-level design and are not familiar with refrigeration or temperature-controlled system design (for instance, engineers with a mechanical or electrical background)*
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle&project=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing.prj&file=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing_start.mlx)
-
 The target audience is an automotive engineer that is involved in system-level design and is not familiar with refrigeration or cooling system design. The modeling is based on energy and mass flow rates, not on geometry (for example, the heat exchangers are modelled as system-level components that do not need number of tubes, fins area, etc.). The goal of the model is to be used as a **virtual testbench that can be used to determine the size of the system components**  (and then, for instance, using supplier parts catalogues to select appropriate components).
 
 The demo explains how to:
 
-* First, design a refrigeration loop for a passenger vehicle based on cooling power requirements (for details, refer to [**designHVACsystem**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/RefrigerationSystemSizing/designHVACsystem.html) MATLAB<sup>®</sup> Live Script)
+* First, design a refrigeration loop for a passenger vehicle based on cooling power requirements (for details, refer to **designHVACsystem** MATLAB<sup>®</sup> Live Script)
 
-* Next, include the refrigeration system in a larger thermal management system. The final system includes the vehicle cabin, a chiller that interfaces with a water-based cooling circuit, and the water-based cooling circuit itself, thus creating a more realistic model of a vehicle thermal management system (for details, refer to [**VehicleThermalSystemSizing_start**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing_start.html) MATLAB<sup>®</sup> Live Script). 
+* Next, include the refrigeration system in a larger thermal management system. The final system includes the vehicle cabin, a chiller that interfaces with a water-based cooling circuit, and the water-based cooling circuit itself, thus creating a more realistic model of a vehicle thermal management system (for details, refer to **VehicleThermalSystemSizing_start** MATLAB<sup>®</sup> Live Script). 
 
 Hopefully this example will help an engineer understand how to properly size, design, and test a system-level thermal system model for a BEV, HEV, or a conventional vehicle, by using a virtual testbench. 
 
@@ -24,15 +22,13 @@ The workflow of the example is summarized in the figure below.
 
 * Use the repository path above and clone it to a local PC directory to save the project files, or 
 
-* Get a local copy of the project directly from MATLAB<sup>®</sup>, by using Simulink<sup>®</sup> ➡ Project from Git, or
-
-* Open the project directly from the browser, by clicking on the MATLAB<sup>®</sup> Online<sup>TM</sup> logo at the top of this page
+* Get a local copy of the project directly from MATLAB<sup>®</sup>, by using Simulink<sup>®</sup> ➡ Project from Git
 
 Start the MATLAB<sup>®</sup> project by clicking on the file *VehicleThermalSystemSizing.prj*
 
 ## STEP 2: Design a simple HVAC system
 
-Use the following MATLAB® Live Script (for reference, the HTML exported from the Live Script file is [here](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/RefrigerationSystemSizing/designHVACsystem.html)):
+Use the following MATLAB® Live Script (for reference, the HTML exported from the Live Script file is [here](./RefrigerationSystemSizing/designHVACsystem.html)):
 
 ```Matlab
 designHVACsystem;
@@ -51,7 +47,7 @@ Contents:
 7. Create a Model of the Open-Loop System <sup>(1)</sup>
 8. [Create a Model of the Closed-Loop System](#create-a-model-of-the-closed-loop-system)
 
-<sup>(1)</sup>  We do not discuss these test models here, please directly check the project folder and open the Simulink<sup>®</sup> models. Or open and check the contents of the MATLAB<sup>®</sup> Live Script [**designHVACsystem**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/RefrigerationSystemSizing/designHVACsystem.html).
+<sup>(1)</sup>  We do not discuss these test models here, please directly check the project folder and open the Simulink<sup>®</sup> models. Or open and check the contents of the MATLAB<sup>®</sup> Live Script **designHVACsystem**.
 
 ### Problem to Solve
 
@@ -59,7 +55,7 @@ Problem to solve:
 
 * Assume we want to cool a vehicle cabin and its volume is 4 m<sup>3</sup>.
 * Suppose the external temperature is 30 °C and the volume desired temperature is 22 °C, and we want to cool down the cabin temperature in 1 min.
-* For simplicity, we assume that the air is dry, there are no losses in the system, and the cabin does not exchange heat with the surroundings. For a more detailed analysis, that considers air moisture and latent heat, one can refer to the MATLAB<sup>®</sup> Live Script [**Rough_design_of_a_thermal_system**](https://html-preview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main//Rough_design_of_a_thermal_system.html) which is an example of leveraging ChatGPT to quickly get a ballpark figure for the thermal system cooling power.
+* For simplicity, we assume that the air is dry, there are no losses in the system, and the cabin does not exchange heat with the surroundings. For a more detailed analysis, that considers air moisture and latent heat, one can refer to the MATLAB<sup>®</sup> Live Script **Rough_design_of_a_thermal_system** which is an example of leveraging ChatGPT to quickly get a ballpark figure for the thermal system cooling power.
 
 ```matlab
 % Environment
