@@ -4,6 +4,8 @@
 
 *Target audience: Automotive engineers that are involved in system-level design and are not familiar with refrigeration or temperature-controlled system design (for instance, engineers with a mechanical or electrical background)*
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle&project=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing.prj&file=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing_start.mlx)
+
 The target audience is an automotive engineer that is involved in system-level design and is not familiar with refrigeration or cooling system design. The modeling is based on energy and mass flow rates, not on geometry (for example, the heat exchangers are modelled as system-level components that do not need number of tubes, fins area, etc.). The goal of the model is to be used as a **virtual testbench that can be used to determine the size of the system components**  (and then, for instance, using supplier parts catalogues to select appropriate components).
 
 The demo explains how to:
