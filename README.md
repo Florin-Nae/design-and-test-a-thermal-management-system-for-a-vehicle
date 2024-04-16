@@ -10,7 +10,7 @@ The target audience is an automotive engineer that is involved in system-level d
 
 The demo explains how to:
 
-* First, design a refrigeration loop for a passenger vehicle based on cooling power requirements (for details, refer to [**designHVACsystem**](./RefrigerationSystemSizing/designHVACsystem.html) MATLAB<sup>®</sup> Live Script)
+* First, design a refrigeration loop for a passenger vehicle based on cooling power requirements (for details, refer to [**designHVACsystem**](https://htmlpreview.github.io/?https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/edit/main/RefrigerationSystemSizing/designHVACsystem.html) MATLAB<sup>®</sup> Live Script)
 
 * Next, include the refrigeration system in a larger thermal management system. The final system includes the vehicle cabin, a chiller that interfaces with a water-based cooling circuit, and the water-based cooling circuit itself, thus creating a more realistic model of a vehicle thermal management system (for details, refer to [**VehicleThermalSystemSizing_start**](./VehicleThermalSystemSizing_start.html) MATLAB<sup>®</sup> Live Script). 
 
