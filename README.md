@@ -606,7 +606,7 @@ out = sim(modelName, StopTime = "20");
 This was indicated as a potential issue when we have run with the variable step solver.  
 Notice that there are some initial transients in the first second when using the fixed-step solver, indicating possible instability or numerical issues. We may try to look at the initial parameters and see if there is any problem, or try to lower the step time - but this will slow down the simulation speed. We will pursue a different approach.
 
-Another solution is to use a [Simulink.op.ModelOperatingPoint](http://simulink.op.modeloperatingpoint/) object and use it to initialize the model before another simulation run.   
+Another solution is to use a [Simulink.op.ModelOperatingPoint](https://www.mathworks.com/help/simulink/slref/simulink.op.modeloperatingpoint.html) object and use it to initialize the model before another simulation run.   
 Here is an example how to do this.  
 Create an operating point from logged simulation data at 1 seconds after the start of simulation:
 
