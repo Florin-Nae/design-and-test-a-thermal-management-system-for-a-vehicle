@@ -28,7 +28,7 @@ Start the MATLAB<sup>®</sup> project by clicking on the file *VehicleThermalSys
 
 ## STEP 2: Design a simple HVAC system
 
-Use the following MATLAB<sup>®</sup> Live Script (for reference, the HTML exported from the Live Script file is [here](./RefrigerationSystemSizing/designHVACsystem.html)):
+Use the following MATLAB<sup>®</sup> Live Script (if you do not have MATLAB opened, for a quick reference one can refer to the HTML exported from the Live Script file, which is in the repository folder: *designHVACsystem.html*):
 
 ```Matlab
 designHVACsystem;
@@ -304,7 +304,7 @@ Contents:
 
 ## System Overview
 
-Here we expand the previously designed simple refrigeration loop system model (for details, refer to [designHVACsystem](./RefrigerationSystemSizing/designHVACsystem.html) Live Script in STEP 2) with additional components, for instance the vehicle cabin and a chiller that interfaces with a water-based cooling circuit, thus creating a more realistic model of a vehicle thermal management system.   
+Here we expand the previously designed simple refrigeration loop system model (for details, refer to designHVACsystem Live Script in STEP 2) with additional components, for instance the vehicle cabin and a chiller that interfaces with a water-based cooling circuit, thus creating a more realistic model of a vehicle thermal management system.   
 This model can be used to properly size the thermal management system various components.  
 
 ![plot](./images/VehicleThermalSystemModel.png)
