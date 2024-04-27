@@ -24,11 +24,11 @@ The workflow of the example is summarized in the figure below.
 
 * Get a local copy of the project directly from MATLAB<sup>®</sup>, by using Simulink<sup>®</sup> ➡ Project from Git
 
-Start the MATLAB<sup>®</sup> project by clicking on the file *VehicleThermalSystemSizing.prj*
+Start the MATLAB<sup>®</sup> project by clicking on the file *VehicleThermalSystemSizing.prj*. This will automatically trigger another program to run: *VehicleThermalSystemSizing_start*. This Live Script will prepare the simulation and open a model ready to run. For those interested in quickly running the model, just click the Run button on the Simulink<sup>®</sup> window, run the model, and explore the results. However, it is advisable to follow below steps, in order to fully understand the workflow.
 
 ## STEP 2: Design a simple HVAC system
 
-Use the following MATLAB® Live Script (for reference, the HTML exported from the Live Script file is [here](./RefrigerationSystemSizing/designHVACsystem.html)):
+Use the following MATLAB<sup>®</sup> Live Script (for reference, the HTML exported from the Live Script file is [here](./RefrigerationSystemSizing/designHVACsystem.html)):
 
 ```Matlab
 designHVACsystem;
