@@ -688,6 +688,6 @@ Please write to [Florin Nae](mailto:fnae@mathworks.com) with any questions or su
 
 ## License
 
-The license used in this contribution is the XSLA license. Refer to LICENSE for more information.
+Refer to LICENSE.txt in this repository for more information.
 
 *Copyright 2024 The MathWorks, Inc.*
