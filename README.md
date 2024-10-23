@@ -1,4 +1,6 @@
-# Size, Design, and Test a Thermal Management System for a Vehicle
+# Size, Design, and Test a Thermal Management System for a Vehicle [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle&project=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing.prj)
+
+---
 
 *Keywords: thermal system sizing, thermal system design, thermal system digital twin, BEV or HEV system-level design, energy management studies*
 
@@ -22,9 +24,20 @@ The workflow of the example is summarized in the figure below.
 
 * Use the repository path above and clone it to a local PC directory to save the project files, or 
 
-* Get a local copy of the project directly from MATLAB<sup>®</sup>, by using Simulink<sup>®</sup> ➡ Project from Git
+* Get a local copy of the project directly from MATLAB<sup>®</sup>, by using Simulink<sup>®</sup> ➡ Project from Git, or
+
+* Directly open the project in MATLAB Online [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle&project=https://github.com/Florin-Nae/design-and-test-a-thermal-management-system-for-a-vehicle/blob/main/VehicleThermalSystemSizing.prj)
 
 Start the MATLAB<sup>®</sup> project by clicking on the file *VehicleThermalSystemSizing.prj*. This will automatically trigger another program to run: *VehicleThermalSystemSizing_start*. This Live Script will prepare the simulation and open a model ready to run. For those interested in quickly running the model, just click the Run button on the Simulink<sup>®</sup> window, run the model, and explore the results. However, it is advisable to follow below steps, in order to fully understand the workflow.
+
+### MathWorks products needed to run the simulation
+
+MathWorks products needed to run the simulation are listed below:
+
+1. MATLAB<sup>®</sup> version R2023b or newer
+2. Simulink<sup>®</sup>
+3. Simscape<sup>TM</sup>
+4. Simscape<sup>TM</sup> Fluids<sup>TM</sup>
 
 ## STEP 2: Design a simple HVAC system
 
@@ -51,7 +64,7 @@ Contents:
 
 ### Problem to Solve
 
-Problem to solve:  
+---
 
 * Assume we want to cool a vehicle cabin and its volume is 4 m<sup>3</sup>.
 * Suppose the external temperature is 30 °C and the volume desired temperature is 22 °C, and we want to cool down the cabin temperature in 1 min.
@@ -303,6 +316,8 @@ Contents:
 9. [Simulation Model](#simulation-model)
 
 ## System Overview
+
+---
 
 Here we expand the previously designed simple refrigeration loop system model (for details, refer to designHVACsystem Live Script in STEP 2) with additional components, for instance the vehicle cabin and a chiller that interfaces with a water-based cooling circuit, thus creating a more realistic model of a vehicle thermal management system.   
 This model can be used to properly size the thermal management system various components.  
@@ -672,19 +687,6 @@ We have shown how to build a system-level digital twin for a vehicle thermal man
 * We investigated simulation speed and how to solve model initialization issues using model state
 
 :warning: Based on the energy flow considerations, you may need to adjust the cooling power of the thermal system to match your downstream coolant-based circuit, or to increase the cooling rate for faster cabin cooling, or to satisfy cost vs. performance design constraints. This is where such system-level models come in handy, enabling detailed yet fast what-if scenarios!
-
-## Dependencies
-
-MathWorks products needed to run the simulation are listed below:
-
-1. MATLAB<sup>®</sup> version R2023b
-2. Simulink<sup>®</sup>
-3. Simscape<sup>TM</sup>
-4. Simscape<sup>TM</sup> Fluids<sup>TM</sup>
-
-## Contact
-
-Please write to [Florin Nae](mailto:fnae@mathworks.com) with any questions or suggestions.
 
 ## License
 
